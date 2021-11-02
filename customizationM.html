@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tres Chic Nail Boutique</title>
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Pedicure Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- custom-theme css files -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //custom-theme css files-->
+<!-- font-awesome-icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome-icons -->
+<!-- googlefonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<!-- //googlefonts -->
+    
+    <!--<meta name="viewport" 
+        content="width=device-width, 
+        initial-scale=1.0, 
+        user-scalable=no" />-->
+
+</head>
+<!--<style>
+    #container {
+      width: 100%;
+      height: 400px;
+      background-color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border-radius: 7px;
+      touch-action: none;
+    }
+    #item1 {
+      width: 100px;
+      height: 100px;
+      background-image: url(images/PicsArt_09-18-11.46.33%20Thumb.png);
+   
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+          border: 20px solid rgba(136, 136, 136, .5);
+      border-radius: 50%;
+      touch-action: none;
+      user-select: none;
+    }
+    #item2 {
+      width: 100px;
+      height: 100px;
+      background-image: url(images/logo.jpg);
+   
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+          border: 20px solid rgba(136, 136, 136, .5);
+      border-radius: 50%;
+      touch-action: none;
+      user-select: none;
+    }
+    #item1:active {
+      background-color: rgba(255, 99, 71, 0);
+    }
+    #item1:hover {
+      cursor: pointer;
+      border-width: 20px;
+    }
+     #item2:active {
+      background-color: rgba(255, 99, 71, 0);
+    }
+    #item2:hover {
+      cursor: pointer;
+      border-width: 20px;
+    }
+  </style>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>-->
+<body>
+
+    
+<!--    <div id="outerContainer">
+    <div id="container">
+      <div id="item1">
+          <div id="item2"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var dragItem1 = document.querySelector("#item1");
+      var dragItem2 = document.querySelector("#item2");
+    var container = document.querySelector("#container");
+
+    var active = false;
+    var currentX;
+    var currentY;
+    var initialX;
+    var initialY;
+    var xOffset = 0;
+    var yOffset = 0;
+
+    container.addEventListener("touchstart", dragStart, false);
+    container.addEventListener("touchend", dragEnd, false);
+    container.addEventListener("touchmove", drag, false);
+
+    container.addEventListener("mousedown", dragStart, false);
+    container.addEventListener("mouseup", dragEnd, false);
+    container.addEventListener("mousemove", drag, false);
+
+    function dragStart(e) {
+      if (e.type === "touchstart") {
+        initialX = e.touches[0].clientX - xOffset;
+        initialY = e.touches[0].clientY - yOffset;
+      } else {
+        initialX = e.clientX - xOffset;
+        initialY = e.clientY - yOffset;
+      }
+
+      if (e.target === dragItem1) {
+        active = true;
+      }
+        if (e.target === dragItem2) {
+        active = true;
+      }
+    }
+
+    function dragEnd(e) {
+      initialX = currentX;
+      initialY = currentY;
+
+      active = false;
+    }
+
+    function drag(e) {
+      if (active) {
+      
+        e.preventDefault();
+      
+        if (e.type === "touchmove") {
+          currentX = e.touches[0].clientX - initialX;
+          currentY = e.touches[0].clientY - initialY;
+        } else {
+          currentX = e.clientX - initialX;
+          currentY = e.clientY - initialY;
+        }
+
+        xOffset = currentX;
+        yOffset = currentY;
+
+        setTranslate(currentX, currentY, dragItem1);
+      }
+    }
+      function drag(e) {
+      if (active) {
+      
+        e.preventDefault();
+      
+        if (e.type === "touchmove") {
+          currentX = e.touches[0].clientX - initialX;
+          currentY = e.touches[0].clientY - initialY;
+        } else {
+          currentX = e.clientX - initialX;
+          currentY = e.clientY - initialY;
+        }
+
+        xOffset = currentX;
+        yOffset = currentY;
+
+        setTranslate(currentX, currentY, dragItem2);
+      }
+    }
+
+
+    function setTranslate(xPos, yPos, el) {
+      el.style.transform = "translate3d(" + xPos + "px, " + yPos + "px, 0)";
+    }
+  </script>
+    
+    
+<!--/main-header-->
+<div class="baner">
+	
+	<!--/banner-info-->
+	  <div class="header">
+		<div class="w3-agile-logo">
+			<div class="container">
+				<div class=" head-wl">
+					<div class="headder-w5">
+						<h1><a href="treatments.html">Tres Chic Nail Boutique</a></h1>
+					</div>
+
+					<div class="w3-header-top-right-text">
+						<h6 class="caption"> Contact Us</h6>
+						<p>072-451-5253</p>
+					</div>
+
+					<div class="email-right">
+						<h6 class="caption">Email Us</h6>
+						<p><a href="natalie@treschicnails.co.za" class="info"> natalie@treschicnails.co.za</a></p>
+
+					</div>
+
+
+					<div class="agileinfo-social-grids">
+						<h6 class="caption">Follow Us</h6>
+						<ul>
+							<li><a href="#"><span class="fa fa-facebook"></span></a></li>
+							<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+							<li><a href="#"><span class="fa fa-rss"></span></a></li>
+							<li><a href="#"><span class="fa fa-vk"></span></a></li>
+						</ul>
+					</div>
+
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+				
+		</div>
+		<div class="top-nav">
+		<nav class="navbar navbar-default navbar-fixed-top">
+	
+	<!-- //header -->
+	<div class="container">
+			<div class="navbar-header">
+	   			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	                <span class="sr-only">Toggle navigation</span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+                </button>
+              </div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav ">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="treatments.html">Treatments</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="intro.html">Customization</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+			</nav>	
+		</div>
+	  </div>
+			<!--/banner-info-->
+</div>
+ <!--/banner-section-->
+
+    
+    
+ <!--   <ol data-draggable="target">
+  <li data-draggable="item">Item 0</li>
+  <li data-draggable="item">Item 1</li>
+  <li data-draggable="item">Item 2</li>
+  <li data-draggable="item">Item 3</li>
+</ol>
+
+<ol data-draggable="target">
+  <li data-draggable="item">Item 4</li>
+  <li data-draggable="item">Item 5</li>
+</ol>
+
+<ol data-draggable="target">
+  <li data-draggable="item">Item 6</li>
+  <li data-draggable="item">Item 7</li>
+</ol>
+
+<ol data-draggable="target">
+  <li data-draggable="item">Item 8</li>
+</ol>
+    --->
+
+ <!-- Draggable DIV -->
+<div id="mydivThumbRed">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTRed"><img id="imgT" src="images/PicsArt_09-18-11.46.33%20Pinkie.png" /></div>
+</div>   
+    <div id="mydivThumbDRed">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTDRed"><img id="imgT" src="images/PicsArt_09-19-07.33.42%20Pinkie.png" /></div>
+</div>
+    <div id="mydivThumbYellow">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTYellow"><img id="imgT" src="images/PicsArt_09-26-05.14.42%20Yellow%20Pinkie.png" /></div>
+</div>
+    <div id="mydivThumbLBlue">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTLBlue"><img id="imgT" src="images/PicsArt_09-26-08.06.51%20LBlue%20Pinkie.png" /></div>
+</div>
+    <div id="mydivThumbBlue">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTBlue"><img id="imgT" src="images/PicsArt_09-26-08.00.25%20Blue%20Pinkie.png" /></div>
+</div>
+    <div id="mydivThumbDBlue">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTDBlue"><img id="imgT" src="images/PicsArt_09-26-08.00.48%20DBlue%20Pinkie.png" /></div>
+</div>
+    <div id="mydivThumbPurple">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTPurple"><img id="imgT" src="images/PicsArt_09-27-12.27.30%20Purple%20Pinkie.png" /></div>
+</div>
+    <div id="mydivThumbPink">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTPink"><img id="imgT" src="images/PicsArt_09-19-01.34.49%20Pink%20Pinkie.png" /></div>
+</div>
+    <div id="mydivThumbLPink">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTLPink"><img id="imgT" src="images/PicsArt_09-19-07.30.53%20LPink%20Pinkie.png" /></div>
+</div>
+    <div id="mydivThumbWhite">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTWhite"><img id="imgT" src="images/PicsArt_09-24-12.42.03%20Pinkie.png" /></div>
+</div>
+    <div id="mydivThumbLGrey">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTLGrey"><img id="imgT" src="images/PicsArt_09-23-11.02.28%20LGrey%20Pinkie.png" /></div>
+</div>
+    <div id="mydivThumbGrey">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTGrey"><img id="imgT" src="images/PicsArt_09-23-11.18.10%20Grey%20Pinkie.png" /></div>
+</div>
+    <div id="mydivThumbBlack">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTBlack"><img id="imgT" src="images/PicsArt_09-24-12.59.23%20Black%20Pinkie.png" /></div>
+</div>
+    <div id="mydivThumbFrench">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTFrench"><img id="imgT" src="images/PicsArt_09-23-10.46.48%20French%20Pinkie.png" /></div>
+</div>
+    <div id="mydivThumbGalaxy">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTGalaxy"><img id="imgT" src="images/PicsArt_09-25-10.59.47%20Galaxy%20Pinkie.png" /></div>
+</div>
+    <div id="mydivThumbBlackMarble">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTBlackMarble"><img id="imgT" src="images/PicsArt_09-25-10.23.31%20BlackMarble%20Pinkie.png" /></div>
+</div>
+    <div id="mydivThumbBPPMarble">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTBPPMarble"><img id="imgT" src="images/PicsArt_09-25-10.09.03%20BPPMarble%20Pinkie.png" /></div>
+</div>
+    <div id="mydivThumbLeopard">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTLeopard"><img id="imgT" src="images/PicsArt_09-25-09.30.51%20Leopard%20Pinkie.png" /></div>
+</div>
+    <div id="mydivThumbSnake">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateP" id="mydivTSnake"><img id="imgT" src="images/PicsArt_09-25-10.43.23%20Snake%20Pinkie.png" /></div>
+</div>
+    
+    
+    
+    
+    
+    
+    <div id="mydivIndexRed">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivIRed"><img id="imgI" src="images/PicsArt_09-18-11.46.33%20Ring.png" /></div>
+</div>   
+    <div id="mydivIndexDRed">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivIDRed"><img id="imgT" src="images/PicsArt_09-19-07.33.42%20Ring.png" /></div>
+</div>   
+    <div id="mydivIndexYellow">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivIYellow"><img id="imgT" src="images/PicsArt_09-26-05.14.42%20Yellow%20Ring.png" /></div>
+</div> 
+    <div id="mydivIndexLBlue">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivILBlue"><img id="imgT" src="images/PicsArt_09-26-08.06.51%20LBlue%20Ring.png" /></div>
+</div> 
+    <div id="mydivIndexBlue">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivIBlue"><img id="imgT" src="images/PicsArt_09-26-08.00.25%20Blue%20Ring.png" /></div>
+</div> 
+    <div id="mydivIndexDBlue">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivIDBlue"><img id="imgT" src="images/PicsArt_09-26-08.00.48%20DBlue%20Ring.png" /></div>
+</div> 
+    <div id="mydivIndexPurple">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivIPurple"><img id="imgT" src="images/PicsArt_09-27-12.27.30%20Purple%20Ring.png" /></div>
+</div>
+    <div id="mydivIndexPink">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivIPink"><img id="imgT" src="images/PicsArt_09-19-01.34.49%20Pink%20Ring.png" /></div>
+</div> 
+    <div id="mydivIndexLPink">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivILPink"><img id="imgT" src="images/PicsArt_09-19-07.30.53%20LPink%20Ring.png" /></div>
+</div> 
+    <div id="mydivIndexWhite">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivIWhite"><img id="imgT" src="images/PicsArt_09-24-12.42.03%20White%20Ring.png" /></div>
+</div> 
+    <div id="mydivIndexLGrey">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivILGrey"><img id="imgT" src="images/PicsArt_09-23-11.02.28%20Lgrey%20Ring.png" /></div>
+</div> 
+    <div id="mydivIndexGrey">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivIGrey"><img id="imgT" src="images/PicsArt_09-23-11.18.10%20Grey%20Ring.png" /></div>
+</div> 
+    <div id="mydivIndexBlack">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivIBlack"><img id="imgT" src="images/PicsArt_09-24-12.59.23%20Black%20Ring.png" /></div>
+</div> 
+    <div id="mydivIndexFrench">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivIFrench"><img id="imgT" src="images/PicsArt_09-23-10.46.48%20French%20Ring.png" /></div>
+</div> 
+    <div id="mydivIndexGalaxy">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivIGalaxy"><img id="imgT" src="images/PicsArt_09-25-10.59.47%20Galaxy%20Ring.png" /></div>
+</div>
+    <div id="mydivIndexBlackMarble">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivIBlackMarble"><img id="imgT" src="images/PicsArt_09-25-10.23.31%20BlackMarble%20Ring.png" /></div>
+</div>
+    <div id="mydivIndexBPPMarble">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivIBPPMarble"><img id="imgT" src="images/PicsArt_09-25-10.09.03%20BPPMarble%20Ring.png" /></div>
+</div>
+    <div id="mydivIndexLeopard">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivILeopard"><img id="imgT" src="images/PicsArt_09-25-09.30.51%20Leopard%20Ring.png" /></div>
+</div>
+    <div id="mydivIndexSnake">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateR" id="mydivISnake"><img id="imgT" src="images/PicsArt_09-25-10.43.23%20Snake%20Ring.png" /></div>
+</div>
+    
+    
+    
+    
+    
+    
+    <div id="mydivMiddleRed">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMRed"><img id="imgM" src="images/PicsArt_09-18-11.46.33%20MiddleTest.png" /></div>
+</div> 
+    <div id="mydivMiddleDRed">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMDRed"><img id="imgT" src="images/PicsArt_09-19-07.33.42%20MiddleTest.png" /></div>
+</div>
+    <div id="mydivMiddleYellow">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMYellow"><img id="imgT" src="images/PicsArt_09-26-05.14.42%20Yellow%20Middle.png" /></div>
+</div>
+    <div id="mydivMiddleLBlue">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMLBlue"><img id="imgT" src="images/PicsArt_09-26-08.06.51%20LBlue%20Middle.png" /></div>
+</div>
+    <div id="mydivMiddleBlue">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMBlue"><img id="imgT" src="images/PicsArt_09-26-08.00.25%20Blue%20Middle.png" /></div>
+</div>
+    <div id="mydivMiddleDBlue">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMDBlue"><img id="imgT" src="images/PicsArt_09-26-08.00.48%20DBlue%20Middle.png" /></div>
+</div>
+    <div id="mydivMiddlePurple">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMPurple"><img id="imgT" src="images/PicsArt_09-27-12.27.30%20Purple%20Middle.png" /></div>
+</div>
+    <div id="mydivMiddlePink">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMPink"><img id="imgT" src="images/PicsArt_09-19-01.34.49%20Pink%20Middle.png" /></div>
+</div>
+    <div id="mydivMiddleLPink">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMLPink"><img id="imgT" src="images/PicsArt_09-19-07.30.53%20%20LPink%20Middle.png" /></div>
+</div>
+    <div id="mydivMiddleWhite">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMWhite"><img id="imgT" src="images/PicsArt_09-24-12.42.03%20White%20Middle.png" /></div>
+</div>
+    <div id="mydivMiddleLGrey">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMLGrey"><img id="imgT" src="images/PicsArt_09-23-11.02.28%20LGrey%20Middle.png" /></div>
+</div>
+    <div id="mydivMiddleGrey">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMGrey"><img id="imgT" src="images/PicsArt_09-23-11.18.10%20Grey%20Middle.png" /></div>
+</div>
+    <div id="mydivMiddleBlack">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMBlack"><img id="imgT" src="images/PicsArt_09-24-12.59.23%20Black%20Middle.png" /></div>
+</div>
+    <div id="mydivMiddleFrench">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMFrench"><img id="imgT" src="images/PicsArt_09-23-10.46.48%20French%20Middle.png" /></div>
+</div>
+    <div id="mydivMiddleGalaxy">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMGalaxy"><img id="imgT" src="images/PicsArt_09-25-10.59.47%20Galaxy%20Middle.png" /></div>
+</div>
+    <div id="mydivMiddleBlackMarble">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMBlackMarble"><img id="imgT" src="images/PicsArt_09-25-10.23.31%20BlackMarble%20Middle.png" /></div>
+</div>
+    <div id="mydivMiddleBPPMarble">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMBPPMarble"><img id="imgT" src="images/PicsArt_09-25-10.09.03%20BPPMarble%20Middle.png" /></div>
+</div>
+    <div id="mydivMiddleLeopard">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMLeopard"><img id="imgT" src="images/PicsArt_09-25-09.30.51%20Leopard%20Middle.png" /></div>
+</div>
+    <div id="mydivMiddleSnake">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateM" id="mydivMSnake"><img id="imgT" src="images/PicsArt_09-25-10.43.23%20Snake%20Middle.png" /></div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <div id="mydivRingRed">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRRed"><img id="imgR" src="images/PicsArt_09-18-11.46.33%20Index.png" />
+        </div>
+</div> 
+    <div id="mydivRingDRed">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRDRed"><img id="imgT" src="images/PicsArt_09-19-07.33.42%20Index.png" /></div>
+</div> 
+    <div id="mydivRingYellow">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRYellow"><img id="imgT" src="images/PicsArt_09-26-05.14.42%20Yellow%20Index.png" /></div>
+</div>
+    <div id="mydivRingLBlue">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRLBlue"><img id="imgT" src="images/PicsArt_09-26-08.06.51%20LBlue%20Index.png" /></div>
+</div>
+    <div id="mydivRingBlue">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRBlue"><img id="imgT" src="images/PicsArt_09-26-08.00.25%20Blue%20Index.png" /></div>
+</div>
+    <div id="mydivRingDBlue">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRDBlue"><img id="imgT" src="images/PicsArt_09-26-08.00.48%20DBlue%20Index.png" /></div>
+</div>
+    <div id="mydivRingPurple">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRPurple"><img id="imgT" src="images/PicsArt_09-27-12.27.30%20Purple%20Index.png" /></div>
+</div>
+    <div id="mydivRingPink">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRPink"><img id="imgT" src="images/PicsArt_09-19-01.34.49%20Pink%20Index.png" /></div>
+</div>
+    <div id="mydivRingLPink">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRLPink"><img id="imgT" src="images/PicsArt_09-19-07.30.53%20LPink%20Index.png" /></div>
+</div>
+    <div id="mydivRingWhite">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRWhite"><img id="imgT" src="images/PicsArt_09-24-12.42.03%20White%20Index.png" /></div>
+</div>
+    <div id="mydivRingLGrey">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRLGrey"><img id="imgT" src="images/PicsArt_09-23-11.02.28%20LGrey%20Index.png" /></div>
+</div>
+    <div id="mydivRingGrey">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRGrey"><img id="imgT" src="images/PicsArt_09-23-11.18.10%20Grey%20Index.png" /></div>
+</div>
+    <div id="mydivRingBlack">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRBlack"><img id="imgT" src="images/PicsArt_09-24-12.59.23%20Black%20Index.png" /></div>
+</div>
+    <div id="mydivRingFrench">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRFrench"><img id="imgT" src="images/PicsArt_09-23-10.46.48%20French%20Index.png" /></div>
+</div>
+    <div id="mydivRingGalaxy">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRGalaxy"><img id="imgT" src="images/PicsArt_09-25-10.59.47%20Galaxy%20Index.png" /></div>
+</div>
+    <div id="mydivRingBlackMarble">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRBlackMarble"><img id="imgT" src="images/PicsArt_09-25-10.23.31%20BlackMarble%20Index.png" /></div>
+</div>
+    <div id="mydivRingBPPMarble">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRBPPMarble"><img id="imgT" src="images/PicsArt_09-25-10.09.03%20BPPMarble%20Index.png" /></div>
+</div>
+    <div id="mydivRingLeopard">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRLeopard"><img id="imgT" src="images/PicsArt_09-25-09.30.51%20Leopard%20Index.png" /></div>
+</div>
+    <div id="mydivRingSnake">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateI" id="mydivRSnake"><img id="imgT" src="images/PicsArt_09-25-10.43.23%20Snake%20Index.png" /></div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <div id="mydivPinkieRed">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPRed"><img id="imgP" src="images/PicsArt_09-18-11.46.33%20Thumb.png" /></div>
+    </div>
+ <div id="mydivPinkieDRed">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPDRed"><img id="imgT" src="images/PicsArt_09-19-07.33.42%20Thumb.png" /></div>  
+  </div>    
+    <div id="mydivPinkieYellow">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPYellow"><img id="imgT" src="images/PicsArt_09-26-05.14.42%20Yellow%20Thumb.png" /></div>  
+  </div>  
+    <div id="mydivPinkieLBlue">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPLBlue"><img id="imgT" src="images/PicsArt_09-26-08.06.51%20LBlue%20Thumb.png" /></div>  
+  </div>  
+    <div id="mydivPinkieBlue">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPBlue"><img id="imgT" src="images/PicsArt_09-26-08.00.25%20Blue%20Thumb.png" /></div>  
+  </div> 
+    <div id="mydivPinkieDBlue">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPDBlue"><img id="imgT" src="images/PicsArt_09-26-08.00.48%20DBlue%20Thumb.png" /></div>  
+  </div> 
+    <div id="mydivPinkiePurple">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPPurple"><img id="imgT" src="images/PicsArt_09-27-12.27.30%20Purple%20Thumb.png" /></div>  
+  </div> 
+    <div id="mydivPinkiePink">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPPink"><img id="imgT" src="images/PicsArt_09-19-01.34.49%20Pink%20Thumb.png" /></div>  
+  </div> 
+    <div id="mydivPinkieLPink">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPLPink"><img id="imgT" src="images/PicsArt_09-19-07.30.53%20LPink%20Thumb.png" /></div>  
+  </div> 
+    <div id="mydivPinkieWhite">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPWhite"><img id="imgT" src="images/PicsArt_09-24-12.42.03%20White%20Thumb.png" /></div>  
+  </div> 
+    <div id="mydivPinkieLGrey">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPLGrey"><img id="imgT" src="images/PicsArt_09-23-11.02.28%20LGrey%20Thumb.png" /></div>  
+  </div> 
+    <div id="mydivPinkieGrey">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPGrey"><img id="imgT" src="images/PicsArt_09-23-11.18.10%20Grey%20Thumb.png" /></div>  
+  </div> 
+    <div id="mydivPinkieBlack">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPBlack"><img id="imgT" src="images/PicsArt_09-24-12.59.23%20Black%20Thumb.png" /></div>  
+  </div> 
+    <div id="mydivPinkieFrench">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPFrench"><img id="imgT" src="images/PicsArt_09-23-10.46.48%20French%20Thumb.png" /></div>  
+  </div> 
+    <div id="mydivPinkieGalaxy">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPGalaxy"><img id="imgT" src="images/PicsArt_09-25-10.59.47%20Galaxy%20Thumb.png" /></div>  
+  </div> 
+    <div id="mydivPinkieBlackMarble">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPBlackMarble"><img id="imgT" src="images/PicsArt_09-25-10.23.31%20BlackMarble%20Thumb.png" /></div>  
+  </div> 
+    <div id="mydivPinkieBPPMarble">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPBPPMarble"><img id="imgT" src="images/PicsArt_09-25-10.09.03%20BBPMarble%20Thumb.png" /></div>  
+  </div> 
+    <div id="mydivPinkieLeopard">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPLeopard"><img id="imgT" src="images/PicsArt_09-25-09.30.51%20Leopard%20Thumb.png" /></div>  
+  </div> 
+    <div id="mydivPinkieSnake">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivPSnake"><img id="imgT" src="images/PicsArt_09-25-10.43.23%20Snake%20Thumb.png" /></div>  
+  </div> 
+    
+    
+    
+    
+    <div id="mydivDiamond1">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivD1"><img id="imgD" src="images/PicsArt_09-25-08.41.47.png" /></div>  
+  </div> 
+    <div id="mydivDiamond2">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivD2"><img id="imgD" src="images/PicsArt_09-25-08.41.47.png" /></div>  
+  </div> 
+    <div id="mydivDiamond3">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivD3"><img id="imgD" src="images/PicsArt_09-25-08.41.47.png" /></div>  
+  </div> 
+    <div id="mydivDiamond4">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivD4"><img id="imgD" src="images/PicsArt_09-25-08.41.47.png" /></div>  
+  </div> 
+    <div id="mydivDiamond5">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivD5"><img id="imgD" src="images/PicsArt_09-25-08.41.47.png" /></div>  
+  </div> 
+    <div id="mydivDiamond6">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivD6"><img id="imgD" src="images/PicsArt_09-25-08.41.47.png" /></div>  
+  </div> 
+    <div id="mydivDiamond7">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivD7"><img id="imgD" src="images/PicsArt_09-25-08.41.47.png" /></div>  
+  </div> 
+    <div id="mydivDiamond8">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivD8"><img id="imgD" src="images/PicsArt_09-25-08.41.47.png" /></div>  
+  </div> 
+    <div id="mydivDiamond9">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivD9"><img id="imgD" src="images/PicsArt_09-25-08.41.47.png" /></div>  
+  </div> 
+    <div id="mydivDiamond10">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div class="rotateT" id="mydivD10"><img id="imgD" src="images/PicsArt_09-25-08.41.47.png" /></div>  
+  </div> 
+    
+    
+    <div id="mydivButterfly1">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div id="mydivB1"><img id="imgB" src="images/PicsArt_09-26-08.04.55.png" /></div>  
+  </div> 
+    <div id="mydivButterfly2">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div id="mydivB2"><img id="imgB" src="images/PicsArt_09-26-08.04.55.png" /></div>  
+  </div> 
+    <div id="mydivButterfly3">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div id="mydivB3"><img id="imgB" src="images/PicsArt_09-26-08.04.55.png" /></div>  
+  </div> 
+    <div id="mydivButterfly4">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div id="mydivB4"><img id="imgB" src="images/PicsArt_09-26-08.04.55.png" /></div>  
+  </div> 
+    <div id="mydivButterfly5">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div id="mydivB5"><img id="imgB" src="images/PicsArt_09-26-08.04.55.png" /></div>  
+  </div> 
+    
+    
+    <div id="mydivHeart1">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header"  --->
+  <div id="mydivH1"><img id="imgH" src="images/PicsArt_09-27-11.19.50.png" /></div>  
+  </div>
+    <div id="mydivHeart2">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header"  --->
+  <div id="mydivH2"><img id="imgH" src="images/PicsArt_09-27-11.19.50.png" /></div>  
+  </div>
+    <div id="mydivHeart3">
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header"  --->
+  <div id="mydivH3"><img id="imgH" src="images/PicsArt_09-27-11.19.50.png" /></div>  
+  </div>
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    <div class="rotated"></div>   
+
+   
+    
+<div class="container258"> 
+    
+    <div class="briefcase">
+<div id="briefcase2"
+   ondrop="drop(event)"
+    ondragover="allowDrop(event)"> 
+</div>
+        
+    
+    
+    <div class="nailart">
+        <h2 class="nailart-heading">Nail Art</h2>
+        <p class="nail-identity">Thumb Finger</p><p class="nail-identity">Index Finger</p><p class="nail-identity">Middle Finger</p><p class="nail-identity">Ring Finger</p><p class="nail-identity">Pinkie Finger</p>
+    </div>
+    <div class="headings-art">
+    <p class="art-typeS">Stickers</p><p class="art-type">Snake Print</p><p class="art-type">Leopard Print</p><p class="art-type">Marble Print</p><p class="art-type">Black Marble</p><p class="art-type">Galaxy Print</p>
+        </div>
+    
+
+  
+    
+    </div>
+    
+   <div class=colour> 
+    <h2 class="colour-heading">Colours</h2>
+    <p class="colour-identity">Thumb Finger</p><p class="colour-identity">Index Finger</p><p class="colour-identity">Middle Finger</p><p class="colour-identity">Ring Finger</p><p class="colour-identity">Pinkie Finger</p>
+    </div>
+    
+    <p class="colour-labelF">French</p><p class="colour-label">Black</p><p class="colour-label">Grey</p><p class="colour-label">Light Grey</p><p class="colour-label">White</p><p class="colour-label">Light Pink</p><p class="colour-label1">Pink</p><p class="colour-label1">Purple</p><p class="colour-label1">Dark Blue</p><p class="colour-label1">Blue</p><p class="colour-label1">Light Blue</p><p class="colour-label1">Yellow</p><p class="colour-label1">Dark Red</p><p class="colour-label1">Red</p>
+    
+    
+  
+    
+     <div class=submit-hand>
+            <div><img class="chandelier" src="images/Chandeliers-Transparent-Background-PNG.png"/></div>
+         </div> 
+         <h3 class="white">All Done?</h3>
+         <p class="white">First, take a screenshot of your design.</p>
+         <p class="white">Then, click the "Next" button to be directed to the "Contact Us" page where you can share your design with us.</p>
+            
+             <a class="join-wthree" id="send-hand-button" href="contact.html">Next</a>
+    
+    
+   <!-- <div class="divider-scroll"></div>
+    
+    
+
+    <script type="text/javascript">
+	jQuery(document).ready(function($) { 
+    $(function() {
+  $("#dragIcons img").draggable({
+    revert: "invalid",
+    refreshPositions: true,
+    drag: function(event, ui) {
+      ui.helper.addClass("draggable");
+    },
+    stop: function(event, ui) {
+      ui.helper.removeClass("draggable");
+      var image = this.src.split("/")[this.src.split("/").length - 1];
+      if ($.ui.ddmanager.drop(ui.helper.data("draggable"), event)) {
+        alert(image + " dropped.");
+      } else {
+        alert(image + " not dropped.");
+      }
+    }
+  });
+  $("#briefcase").droppable({
+    drop: function(event, ui) {
+      if ($("#briefcase img").length == 0) {
+        $("#briefcase").html("");
+      }
+      ui.draggable.addClass("dropped");
+      $("#briefcase").append(ui.draggable);
+    }
+  });
+});
+    }
+                           $('#dropzone').droppable({
+  activeClass: 'active',
+  hoverClass: 'hover',
+  accept: ":not(.ui-sortable-helper)", // Reject clones generated by sortable
+  drop: function (e, ui) {
+    var $el = $('<div class="drop-item"><details><summary>' + ui.draggable.text() + '</summary><div><label>More Data</label><input type="text" /></div></details></div>');
+    $el.append($('<button type="button" class="btn btn-default btn-xs remove"><span class="glyphicon glyphicon-trash"></span></button>').click(function () { $(this).parent().detach(); }));
+    $(this).append($el);
+  }
+}).sortable({
+  items: '.drop-item',
+  sort: function() {
+    // gets added unintentionally by droppable interacting with sortable
+    // using connectWithSortable fixes this, but doesn't allow you to customize active/hoverClass options
+    $( this ).removeClass( "active" );
+  }
+});
+        });
+        
+        function allowDrop(event) {
+  event.preventDefault();
+}
+
+function drag(event) {
+  event.dataTransfer.setData("text", event.target.id);
+}
+
+function drop(event) {
+  event.preventDefault();
+  var data = event.dataTransfer.getData("text");
+  event.target.appendChild(document.getElementById(data));
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+         <script type="text/javascript">
+$(document).ready(function(){
+    $('#myselection').on('change', function(){
+    	var demovalue = $(this).val(); 
+        $("div.myDiv").hide();
+        $("#show"+demovalue).show();
+    });
+});
+       
+    --->
+    </div>
+    <script>
+   //Make the DIV element draggagle:
+dragElement(document.getElementById("mydivThumbDRed"));
+        dragElement(document.getElementById("mydivThumbRed"));
+        dragElement(document.getElementById("mydivThumbYellow"));
+        dragElement(document.getElementById("mydivThumbLBlue"));
+        dragElement(document.getElementById("mydivThumbBlue"));
+        dragElement(document.getElementById("mydivThumbDBlue"));
+        dragElement(document.getElementById("mydivThumbPurple"));
+        dragElement(document.getElementById("mydivThumbPink"));
+         dragElement(document.getElementById("mydivThumbLPink"));
+        dragElement(document.getElementById("mydivThumbWhite"));
+        dragElement(document.getElementById("mydivThumbLGrey"));
+        dragElement(document.getElementById("mydivThumbGrey"));
+        dragElement(document.getElementById("mydivThumbBlack"));
+        dragElement(document.getElementById("mydivThumbFrench"));
+        dragElement(document.getElementById("mydivThumbGalaxy"));
+        dragElement(document.getElementById("mydivThumbBlackMarble"));
+        dragElement(document.getElementById("mydivThumbBPPMarble"));
+        dragElement(document.getElementById("mydivThumbLeopard"));
+        dragElement(document.getElementById("mydivThumbSnake"));
+        
+        
+dragElement(document.getElementById("mydivIndexRed"));
+        dragElement(document.getElementById("mydivIndexDRed"));
+        dragElement(document.getElementById("mydivIndexYellow"));
+         dragElement(document.getElementById("mydivIndexLBlue"));
+        dragElement(document.getElementById("mydivIndexBlue"));
+        dragElement(document.getElementById("mydivIndexDBlue"));
+        dragElement(document.getElementById("mydivIndexPurple"));
+        dragElement(document.getElementById("mydivIndexPink"));
+        dragElement(document.getElementById("mydivIndexLPink"));
+        dragElement(document.getElementById("mydivIndexWhite"));
+        dragElement(document.getElementById("mydivIndexLGrey"));
+        dragElement(document.getElementById("mydivIndexGrey"));
+        dragElement(document.getElementById("mydivIndexBlack"));
+        dragElement(document.getElementById("mydivIndexFrench"));
+        dragElement(document.getElementById("mydivIndexGalaxy"));
+        dragElement(document.getElementById("mydivIndexBlackMarble"));
+        dragElement(document.getElementById("mydivIndexBPPMarble"));
+        dragElement(document.getElementById("mydivIndexLeopard"));
+        dragElement(document.getElementById("mydivIndexSnake"));
+        
+        
+        dragElement(document.getElementById("mydivMiddleRed"));
+        dragElement(document.getElementById("mydivMiddleDRed"));
+        dragElement(document.getElementById("mydivMiddleYellow"));
+        dragElement(document.getElementById("mydivMiddleLBlue"));
+        dragElement(document.getElementById("mydivMiddleBlue"));
+        dragElement(document.getElementById("mydivMiddleDBlue"));
+        dragElement(document.getElementById("mydivMiddlePurple"));
+        dragElement(document.getElementById("mydivMiddlePink"));
+        dragElement(document.getElementById("mydivMiddleLPink"));
+        dragElement(document.getElementById("mydivMiddleWhite"));
+        dragElement(document.getElementById("mydivMiddleLGrey"));
+        dragElement(document.getElementById("mydivMiddleGrey"));
+        dragElement(document.getElementById("mydivMiddleBlack"));
+        dragElement(document.getElementById("mydivMiddleFrench"));
+        dragElement(document.getElementById("mydivMiddleGalaxy"));
+        dragElement(document.getElementById("mydivMiddleBlackMarble"));
+        dragElement(document.getElementById("mydivMiddleBPPMarble"));
+        dragElement(document.getElementById("mydivMiddleLeopard"));
+        dragElement(document.getElementById("mydivMiddleSnake"));
+        
+        
+        dragElement(document.getElementById("mydivRingRed"));
+        dragElement(document.getElementById("mydivRingDRed"));
+        dragElement(document.getElementById("mydivRingYellow"));
+        dragElement(document.getElementById("mydivRingLBlue"));
+        dragElement(document.getElementById("mydivRingBlue"));
+        dragElement(document.getElementById("mydivRingDBlue"));
+        dragElement(document.getElementById("mydivRingPurple"));
+        dragElement(document.getElementById("mydivRingPink"));
+        dragElement(document.getElementById("mydivRingLPink"));
+        dragElement(document.getElementById("mydivRingWhite"));
+        dragElement(document.getElementById("mydivRingLGrey"));
+        dragElement(document.getElementById("mydivRingGrey"));
+        dragElement(document.getElementById("mydivRingBlack"));
+        dragElement(document.getElementById("mydivRingFrench"));
+        dragElement(document.getElementById("mydivRingGalaxy"));
+        dragElement(document.getElementById("mydivRingBlackMarble"));
+        dragElement(document.getElementById("mydivRingBPPMarble"));
+        dragElement(document.getElementById("mydivRingLeopard"));
+        dragElement(document.getElementById("mydivRingSnake"));
+        
+        
+        dragElement(document.getElementById("mydivPinkieRed"));
+        dragElement(document.getElementById("mydivPinkieDRed"));
+        dragElement(document.getElementById("mydivPinkieYellow"));
+        dragElement(document.getElementById("mydivPinkieLBlue"));
+        dragElement(document.getElementById("mydivPinkieBlue"));
+        dragElement(document.getElementById("mydivPinkieDBlue"));
+        dragElement(document.getElementById("mydivPinkiePurple"));
+        dragElement(document.getElementById("mydivPinkiePink"));
+        dragElement(document.getElementById("mydivPinkieLPink"));
+        dragElement(document.getElementById("mydivPinkieWhite"));
+        dragElement(document.getElementById("mydivPinkieLGrey"));
+        dragElement(document.getElementById("mydivPinkieGrey"));
+        dragElement(document.getElementById("mydivPinkieBlack"));
+        dragElement(document.getElementById("mydivPinkieFrench"));
+        dragElement(document.getElementById("mydivPinkieGalaxy"));
+        dragElement(document.getElementById("mydivPinkieBlackMarble"));
+        dragElement(document.getElementById("mydivPinkieBPPMarble"));
+        dragElement(document.getElementById("mydivPinkieLeopard"));
+        dragElement(document.getElementById("mydivPinkieSnake"));
+        
+        dragElement(document.getElementById("mydivDiamond1"));
+        dragElement(document.getElementById("mydivDiamond2"));
+        dragElement(document.getElementById("mydivDiamond3"));
+        dragElement(document.getElementById("mydivDiamond4"));
+        dragElement(document.getElementById("mydivDiamond5"));
+        dragElement(document.getElementById("mydivDiamond6"));
+        dragElement(document.getElementById("mydivDiamond7"));
+        dragElement(document.getElementById("mydivDiamond8"));
+        dragElement(document.getElementById("mydivDiamond9"));
+        dragElement(document.getElementById("mydivDiamond10"));
+        
+        dragElement(document.getElementById("mydivButterfly1"));
+        dragElement(document.getElementById("mydivButterfly2"));
+        dragElement(document.getElementById("mydivButterfly3"));
+        dragElement(document.getElementById("mydivButterfly4"));
+        dragElement(document.getElementById("mydivButterfly5"));
+        
+        dragElement(document.getElementById("mydivHeart1"));
+        dragElement(document.getElementById("mydivHeart2"));
+        dragElement(document.getElementById("mydivHeart3"));
+        
+        
+        
+      
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    /* if present, the header is where you move the DIV from:*/
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    /* otherwise, move the DIV from anywhere inside the DIV:*/
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    /* stop moving when mouse button is released:*/
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+} 
+    
+    
+    
+    
+    
+    
+    
+</script>
+    
+    
+     
+    
+    
+    
+    
+    
+<!----
+<div id="dropZone">
+  <div
+    id="dropBox1"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <p>Thumb</p>
+  </div>
+  <div
+    id="dropBox2"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <p>Index Finger</p>
+  </div>
+  <div
+    id="dropBox3"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <p>Middle Finger</p>
+  </div>
+  <div
+    id="dropBox4"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <p>Ring Finger</p>
+  </div>
+     <div
+    id="dropBox5"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <p>Pinkie</p>
+  </div>
+</div>
+
+<div
+  id="animals"
+  ondrop="drop(event)"
+  ondragover="allowDrop(event)"
+>
+  <img
+    id="cat"
+    src="images/WhatsApp%20Image%202021-08-09%20at%2015.58.20%20-%20Copy%20(3).jpeg"
+    draggable="true"
+    ondragstart="drag(event)"
+    width="300"
+  />
+
+  <img
+    id="dog"
+    src="images/WhatsApp%20Image%202021-08-09%20at%2015.58.20%20-%20Copy%20(6).jpeg"
+    draggable="true"
+    ondragstart="drag(event)"
+    width="300"
+  />
+
+  <img
+    id="mouse"
+    src="images/WhatsApp%20Image%202021-08-09%20at%2015.58.20%20-%20Copy%20(8).jpeg"
+    draggable="true"
+    ondragstart="drag(event)"
+    width="300"
+  />
+
+  <img
+    id="fish"
+    src="images/WhatsApp%20Image%202021-08-09%20at%2015.58.20%20(1).jpeg"
+    draggable="true"
+    ondragstart="drag(event)"
+    width="300"
+  />
+</div>    
+ -------------------------------------->  
+<!--<div id="dropZone">
+  <div
+    id="dropBox1"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <p>Fish</p>
+  </div>
+  <div
+    id="dropBox2"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <p>Mouse</p>
+  </div>
+  <div
+    id="dropBox3"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <p>Cat</p>
+  </div>
+  <div
+    id="dropBox4"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <p>Dog</p>
+  </div>
+     <div
+    id="dropBox5"
+    ondrop="drop(event)"
+    ondragover="allowDrop(event)"
+  >
+    <p>Dog</p>
+  </div>
+</div>
+<div
+  id="animals"
+  ondrop="drop(event)"
+  ondragover="allowDrop(event)"
+>
+  <img
+    id="cat"
+    src="images/PicsArt_09-18-11.46.33.png":
+    draggable="true"
+    ondragstart="drag(event)"
+    width="300"
+  />
+
+  <img
+    id="dog"
+    src="https://www.wallpaperflare.com/static/800/62/574/puppies-white-background-paws-yellow-wallpaper-preview.jpg"
+    draggable="true"
+    ondragstart="drag(event)"
+    width="300"
+  />
+
+  <img
+    id="mouse"
+    src="https://www.adamspestcontrol.com/cms-files/size-992x992/adams-mouse-600x600.jpg"
+    draggable="true"
+    ondragstart="drag(event)"
+    width="300"
+  />
+
+  <img
+    id="fish"
+    src="https://cdn.mos.cms.futurecdn.net/uhLVL2jTdtQ7ScXCeoeAU6-650-80.jpg.webp"
+    draggable="true"
+    ondragstart="drag(event)"
+    width="300"
+  />
+</div>   
+    </div>--->
+<!--// Subscribe -->
+<div class="wthree-subscribef-w3ls">
+		<div class="container">
+			<h3 class="tittlef-agileits-w3layouts white-clrf">Get All Special Offers!</h3>
+			<p class="white-clrf">Sign up for our newsletter and get all the latest tips and tricks to polish your nails at a good rate!</p>
+			<div class="footer_w3layouts_gridf_right">
+				<form action="#" method="post">
+					<input type="email" name="Email" placeholder="Email address..." required="">
+					<input type="submit" value="Submit">
+					<div class="clearfix"></div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!--// Subscribe -->
+	<!-- footer -->
+	<div class="footer_top_agileits">
+		<div class="container">
+			<div class="col-md-2 footer_grid">
+				<img src="images/logo.jpg" class="img-responsive" alt="" />
+			</div>
+			<div class="col-md-4 footer_grid">
+				<h3>Latest News</h3>
+				<ul class="footer_grid_list">
+					<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						<a href="#" data-toggle="modal" data-target="#myModal">Promotion</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-4 footer_grid">
+				<h3>Contact Info</h3>
+				<ul class="address">
+					<li><i class="fa fa-map-marker" aria-hidden="true"></i>Roodekrans<span>Gauteng</span></li>
+					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="natalie@treschicnails.co.za">natalie@treschicnails.co.za</a></li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i>072-451-5253</li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+			
+		</div>
+	</div>
+	<div class="footer_w3ls">
+		<div class="container">
+					<div class="footer_bottom1">
+						<p>© 2018 Pedicure. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+					</div>
+		</div>
+	</div>
+    
+    
+    
+	<!-- //footer -->
+<!-- bootstrap-modal-pop-up -->
+	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					Pedicure
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+					<div class="modal-body">
+						<img src="images/p1.jpg" alt=" " class="img-responsive" />
+						<p>Recieve 25% off any treatment over your birthday month! Terms and Conditions apply!
+							<i>" Life is too short to have boring nails! "</i></p>
+					</div>
+			</div>
+		</div>
+	</div>
+<!-- //bootstrap-modal-pop-up --> 
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!-- //js -->
+<!-- for smooth scrolling -->
+<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+<!-- //for smooth scrolling -->
+
+<!-- scrolling script -->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<!-- //scrolling script -->
+    
+    <script type="text/javascript">
+	jQuery(document).ready(function($) {
+    $('.drag').draggable({ 
+  appendTo: 'body',
+  helper: 'clone'
+});
+
+$('#dropzone').droppable({
+  activeClass: 'active',
+  hoverClass: 'hover',
+  //accept: ":not(.ui-sortable-helper)", // Reject clones generated by sortable
+  drop: function (e, ui) {
+    var $el = $('<div class="drop-item"><details><summary>' + ui.draggable.text() + '</summary><div><label>More Data</label><input type="text" /></div></details></div>');
+    $el.append($('<button type="button" class="btn btn-default btn-xs remove"><span class="glyphicon glyphicon-trash"></span></button>').click(function () { $(this).parent().detach(); }));
+    $(this).append($el);
+  }
+}).sortable({
+  items: '.drop-item',
+  sort: function() {
+    // gets added unintentionally by droppable interacting with sortable
+    // using connectWithSortable fixes this, but doesn't allow you to customize active/hoverClass options
+    $( this ).removeClass( "active" );
+  }
+});
+        });
+        
+        function allowDrop(event) {
+  event.preventDefault();
+}
+
+function drag(event) {
+  event.dataTransfer.setData("text", event.target.id);
+}
+
+function drop(event) {
+  event.preventDefault();
+  var data = event.dataTransfer.getData("text");
+  event.target.appendChild(document.getElementById(data));
+}
+/* (function()
+{
+
+  //exclude older browsers by the features we need them to support
+  //and legacy opera explicitly so we don't waste time on a dead browser
+  if
+  (
+    !document.querySelectorAll 
+    || 
+    !('draggable' in document.createElement('span')) 
+    || 
+    window.opera
+  ) 
+  { return; }
+  
+  //get the collection of draggable items and add their draggable attribute
+  for(var 
+    items = document.querySelectorAll('[data-draggable="item"]'), 
+    len = items.length, 
+    i = 0; i < len; i ++)
+  {
+    items[i].setAttribute('draggable', 'true');
+  }
+
+  //variable for storing the dragging item reference 
+  //this will avoid the need to define any transfer data 
+  //which means that the elements don't need to have IDs 
+  var item = null;
+
+  //dragstart event to initiate mouse dragging
+  document.addEventListener('dragstart', function(e)
+  {
+    //set the item reference to this element
+    item = e.target;
+    
+    //we don't need the transfer data, but we have to define something
+    //otherwise the drop action won't work at all in firefox
+    //most browsers support the proper mime-type syntax, eg. "text/plain"
+    //but we have to use this incorrect syntax for the benefit of IE10+
+    e.dataTransfer.setData('text', '');
+  
+  }, false);
+
+  //dragover event to allow the drag by preventing its default
+  //ie. the default action of an element is not to allow dragging 
+  document.addEventListener('dragover', function(e)
+  {
+    if(item)
+    {
+      e.preventDefault();
+    }
+  
+  }, false);  
+
+  //drop event to allow the element to be dropped into valid targets
+  document.addEventListener('drop', function(e)
+  {
+    //if this element is a drop target, move the item here 
+    //then prevent default to allow the action (same as dragover)
+    if(e.target.getAttribute('data-draggable') == 'target')
+    {
+      e.target.appendChild(item);
+      
+      e.preventDefault();
+    }
+  
+  }, false);
+  
+  //dragend event to clean-up after drop or abort
+  //which fires whether or not the drop target was valid
+  document.addEventListener('dragend', function(e)
+  {
+    item = null;
+  
+  }, false);
+
+})(); */
+
+
+
+
+
+
+    </script>
+    </body>
+</html>
